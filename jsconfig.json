@@ -1,0 +1,14 @@
+{
+	"extends": "@tsconfig/node16/tsconfig.json",
+	"exclude": [
+		"packages"
+	],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"allowJs": true,
+		"checkJs": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strict": true
+	}
+}
